@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- --Make a fullscreen window[x]
+    --Make smaller box for changing color[]
+        --make function to repeat in multiple boxes[]
+    --Repeat small boxes across fullscreen[] -->
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technicolor Boxes</title>
+
+    <style>
+        .fullscreen {
+            height: 100vh;
+            width: 100vw;
+            background-color: gray;
+            display: flex;
+            align-items: space-around;
+            justify-content: center;
+            flex-direction:row;
+
+
+
+        }
+
+        .box {
+            height: 60px;
+            width: 60px;
+            background-color: aqua; 
+         }
+    </style>
+    
+ 
+</head>
+<body>
+
+    <div class="fullscreen">
+        <div class="newcolumn">
+            <div class="box" id="small1" onmouseenter="color('small1')"></div>
+            <div class="box" id="small2" onmouseenter="color('small2')"></div>
+            <div class="box" id="small3" onmouseenter="color('small3')"></div>
+            <div class="box" id="small4" onmouseenter="color('small4')"></div>
+            <div class="box" id="small5" onmouseenter="color('small5')"></div>
+            <div class="box" id="small6" onmouseenter="color('small6')"></div>
+            <div class="box" id="small7" onmouseenter="color('small7')"></div>
+            <div class="box" id="small8" onmouseenter="color('small8')"></div>
+            <div class="box" id="small9" onmouseenter="color('small9')"></div>
+            <div class="box" id="small10" onmouseenter="color('small10')"></div>
+        </div>
+        <div class="newcolumn">
+            <div class="box" id="small11" onmouseenter="color('small11')"></div>
+            <div class="box" id="small12" onmouseenter="color('small12')"></div>
+            <div class="box" id="small13" onmouseenter="color('small13')"></div>
+            <div class="box" id="small14" onmouseenter="color('small14')"></div>
+            <div class="box" id="small15" onmouseenter="color('small15')"></div>
+            <div class="box" id="small16" onmouseenter="color('small16')"></div>
+            <div class="box" id="small17" onmouseenter="color('small17')"></div>
+            <div class="box" id="small18" onmouseenter="color('small18')"></div>
+            <div class="box" id="small19" onmouseenter="color('small19')"></div>
+            <div class="box" id="small20" onmouseenter="color('small20')"></div>
+        </div>
+        <div class="newcolumn">
+            <div class="box" id="small21" onmouseenter="color('small21')"></div>
+            <div class="box" id="small22" onmouseenter="color('small22')"></div>
+            <div class="box" id="small23" onmouseenter="color('small23')"></div>
+            <div class="box" id="small24" onmouseenter="color('small24')"></div>
+            <div class="box" id="small25" onmouseenter="color('small25')"></div>
+            <div class="box" id="small26" onmouseenter="color('small26')"></div>
+            <div class="box" id="small27" onmouseenter="color('small27')"></div>
+            <div class="box" id="small28" onmouseenter="color('small28')"></div>
+            <div class="box" id="small29" onmouseenter="color('small29')"></div>
+            <div class="box" id="small30" onmouseenter="color('small30')"></div>
+        </div>
+        <div class="newcolumn">
+            <div class="box" id="small31" onmouseenter="color('small31')"></div>
+            <div class="box" id="small32" onmouseenter="color('small32')"></div>
+            <div class="box" id="small33" onmouseenter="color('small33')"></div>
+            <div class="box" id="small34" onmouseenter="color('small34')"></div>
+            <div class="box" id="small35" onmouseenter="color('small35')"></div>
+            <div class="box" id="small36" onmouseenter="color('small36')"></div>
+            <div class="box" id="small37" onmouseenter="color('small37')"></div>
+            <div class="box" id="small38" onmouseenter="color('small38')"></div>
+            <div class="box" id="small39" onmouseenter="color('small39')"></div>
+            <div class="box" id="small40" onmouseenter="color('small40')"></div>
+        </div>
+        <div class="newcolumn">
+            <div class="box" id="small41" onmouseenter="color('small41')"></div>
+            <div class="box" id="small42" onmouseenter="color('small42')"></div>
+            <div class="box" id="small43" onmouseenter="color('small43')"></div>
+            <div class="box" id="small44" onmouseenter="color('small44')"></div>
+            <div class="box" id="small45" onmouseenter="color('small45')"></div>
+            <div class="box" id="small46" onmouseenter="color('small46')"></div>
+            <div class="box" id="small47" onmouseenter="color('small47')"></div>
+            <div class="box" id="small48" onmouseenter="color('small48')"></div>
+            <div class="box" id="small49" onmouseenter="color('small49')"></div>
+            <div class="box" id="small50" onmouseenter="color('small50')"></div>
+        </div>
+        <div class="newcolumn">
+            <div class="box" id="small51" onmouseenter="color('small51')"></div>
+            <div class="box" id="small52" onmouseenter="color('small52')"></div>
+            <div class="box" id="small53" onmouseenter="color('small53')"></div>
+            <div class="box" id="small54" onmouseenter="color('small54')"></div>
+            <div class="box" id="small55" onmouseenter="color('small55')"></div>
+            <div class="box" id="small56" onmouseenter="color('small56')"></div>
+            <div class="box" id="small57" onmouseenter="color('small57')"></div>
+            <div class="box" id="small58" onmouseenter="color('small58')"></div>
+            <div class="box" id="small59" onmouseenter="color('small59')"></div>
+            <div class="box" id="small60" onmouseenter="color('small60')"></div>
+        </div>
+        <div class="newcolumn">
+            <div class="box" id="small61" onmouseenter="color('small61')"></div>
+            <div class="box" id="small62" onmouseenter="color('small62')"></div>
+            <div class="box" id="small63" onmouseenter="color('small63')"></div>
+            <div class="box" id="small64" onmouseenter="color('small64')"></div>
+            <div class="box" id="small65" onmouseenter="color('small65')"></div>
+            <div class="box" id="small66" onmouseenter="color('small66')"></div>
+            <div class="box" id="small67" onmouseenter="color('small67')"></div>
+            <div class="box" id="small68" onmouseenter="color('small68')"></div>
+            <div class="box" id="small69" onmouseenter="color('small69')"></div>
+            <div class="box" id="small70" onmouseenter="color('small70')"></div>
+        </div>
+        
+
+    </div>
+    <script>
+        function color(x) {
+            var box = document.getElementById(x);
+            var randomColor = Math.floor(Math.random()*16777215).toString(16);
+            box.style.backgroundColor="#" + randomColor;   
+             }      
+    </script>
+</body>
+</html>
+
